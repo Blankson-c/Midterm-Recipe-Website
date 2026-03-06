@@ -1,0 +1,314 @@
+{
+  "Recipes": [
+    {
+      "id":"0",
+      "source": "",
+      "image":"",
+      "name": "Apple Upside Down Cake",
+      "description":"",
+      "tags": ["all","dessert"],
+      "multipart": true,
+      "ingredients": [
+        { 
+          "name": "CARAMEL BASE",
+          "ingredient-list": {
+            "1": "1 cup sugar",
+            "2": "1/3 cup water",
+            "3": "1 tsp cinnamon",
+            "4": "3 lg baking apples (peeled & sliced)",
+            "5": "6 Tbls Butter",
+            "6": "1/8 tsp salt"
+
+          }
+      },
+        {
+          "name": "CAKE",
+          "ingredient-list": {
+            "1": "6 Tbls butter (softened)",
+            "2": "3/4 cup sugar",
+            "3": "1 tsp vanilla",
+            "4": "1 egg",
+            "5": "2 egg yolks",
+            "6": "1 cup flour",
+            "7": "1 tsp baking powder",
+            "8": "1/4 tsp salt",
+            "9": "1/2 cup milk"
+
+          }
+      }
+  ],
+      "instructions": {
+        "1": "Preheat oven to 350°. Grease a 9' round cake pan",
+        "2": "In a saucepan, stir in caramel ingredients and heat over medium heat for 3 minutes. Pour into baking pan.",
+        "3": "Cook apples, butter, and salt in a skillet until tender, about 10 minutes. Arrange cooled apples over caramel starting in the center and working out.",
+        "4": "In a seperate bowl beat butter and add sugar slowly.",
+        "5": "Beat in vanilla and eggs. Add dry ingredients in 3 parts, alternating with milk. Spread batter over apples.",
+        "6": "Tap pan twice on counter and bake for 40 minutes. Cool for 20 minutes before running sharp knife around sides and removing cake to a platter. Let cool."
+      }
+    },
+    {
+      "id":"1",
+      "source": "Smucker's",
+      "image":"",
+      "name": "Asian Noodles",
+      "description":"",
+      "tags": ["all","mainDish"],
+      "multipart": true,
+      "ingredients": [
+        {
+            "name": "",
+          "ingredient-list": {
+            "1": "1 1/4 cup Smucker's Natural Peanut Butter",
+            "2": "1/2 cup coconut milk or sour cream",
+            "3": "1/2 cup soy sauce",
+            "4": "3 tablespoons fresh lime juice",
+            "5": "2 tablespoons honey",
+            "6": "1 piece ginger root (approximately 1x2-inches)",
+            "7": "4 cloves garlic",
+            "8": "1/4 teaspoon crushed red pepper"
+          }
+        },
+         {
+            "name": "For the garnish:",
+          "ingredient-list": {
+            "1": "1 cup seedless cucumber, sliced and quartered",
+            "2": "2 green onions, chopped (use both white and green parts)",
+            "3": "1/4 cup finely diced red bell pepper",
+            "4": "12 oz. thin spaghetti or vermicell"
+          }
+          }
+        ],
+      "instructions": {
+        "1": "Place all sauce ingredients in a blender; blend on medium-high until smooth. Cover and refrigerate sauce until needed.",
+        "2": "Cook pasta according to package directions; drain. Transfer cooked pasta to a large bowl, add cold water to cover pasta and let chill approximately 5 minutes or until pasta is no longer warm to the touch.",
+        "3": "Drain pasta; add sauce to the bowl and stir to thoroughly coat pasta. (If sauce seems too thick, add 2 tablespoons water and mix well.)",
+        "4": "Divide pasta into individual servings and garnish each with cucumber, green onion and red pepper."
+      }
+    },
+    {
+      "id":"2",
+      "source": "Taste of Home",
+      "description": "I like using a colorful blend of peppers to brighten this skillet specialty-and a little balsamic vinegar to flavor the tender chicken. If you prefer a stronger flavor, add a little more! Author: Valerie Moore. Stilwell, Kansas.",
+      "image":"",
+      "name": "Balsamic Chicken and Peppers",
+      "tags": ["all","mainDish"],
+      "multipart":false,
+      "ingredients":{
+        "1":"4 boneless skinless chicken breast halves(4 ounces each)",
+        "2": "1/4 teaspoon  pepper",
+        "3": "1/8 teaspoon salt",
+        "4": "2 tablespoons olive oil, divided",
+        "5": "1 each medium sweet yellow red and orange peppers, julienned",
+        "6": "1 small onion, sliced",
+        "7": "2 tablespoons balsamic vinegar"
+      },
+      "instructions":{
+        "1": "Sprinkle chicken with pepper and salt. In a large skillet, cook the chicken in 1 tablespoon oil for 4-6 minutes in each side or until a meat thermometer reach's 170; drain. Remove chicken and keep warm",
+        "2": "In the same skillet, sauté peppers and onion in remaining oil for 3-4 minutes or until tender. Return chicken to the pan. Add vinegar; heat through."
+      }
+    },
+    {
+      "id":"3",
+      "source": "",
+      "image":"",
+      "name": "Bark",
+      "description":"",
+      "tags": ["all","dessert"],
+      "multipart":true,
+      "ingredients":[
+        {
+          "name": "Oreo Bark",
+          "ingredient-list": {
+          "1": "2 lbs of white chocolate",
+          "2": "2 sleeves or Oreo Cookies"
+          }
+        },
+        
+        {
+          "name":"Tiger Butter",
+          "ingredient-list": {
+          "1": "2 lbs of white chocolate",
+          "2": "1/2 lb creamy peanut butter chocolate for striping"
+          }
+        },
+        
+        {
+          "name":"Avalanche Bark",
+          "ingredient-list": {
+          "1": "1 1/2 lbs of white chocolate",
+          "2": "1/2 lb peanut butter",
+          "3": "1/4 lb rice cereal",
+          "4": "1/3 lb small marshmallows",
+          "5": "1/2 lb semi-sweet chocolate chips"
+          }
+        },
+        
+        {
+          "name": "Grasshopper Bark",
+          "ingredient-list": {
+          "1": "2 lbs of white chocolate",
+          "2": "1/2 lb green peppermint melting wafers"
+          }
+        }
+  ],
+      "instructions":{
+        "1": "Melt chocolate in microwave or double broiler. Add other ingredients. Cool until firm. Cut into bars"
+      }
+    },
+    {
+      "id":"4",
+      "source":"",
+      "image":"",
+      "name": "Berry Cheesecake Tart",
+      "description":"",
+      "tags":["all","dessert"],
+      "multipart":true,
+      "ingredients":[
+        {
+          "name": "Crust",
+          "ingredient-list": {
+            "1": "1 cup flour",
+            "2": "1/4 cup almonds (ground)",
+            "3": "1/2 tsp salt",
+            "4": "1/4 tsp cinnamon",
+            "5": "1/4 cup shortening ",
+            "6": "1/4 cup almonds (ground)",
+            "7": "2 tbls sugar"
+
+          }
+        },
+        {
+          "name": "Filling",
+          "ingredient-list": {
+            "1": "1 1/2 cup half & half",
+            "2": "1/4 cup cornstarch",
+            "3": "4 egg yolk",
+            "4": "1/2 cup sugar",
+            "5": "2 egg yolks",
+            "6": "8oz cream cheese(softened)",
+            "7": "1/2 tbls lemon juice",
+            "8": "1 tsp vanilla",
+            "9": "16oz berries(fresh)",
+            "10": "2 tbls sugar"
+          }
+        }
+  ],
+      "instructions":{
+        "1": "Preheat oven to 375°. Place all crust ingredients in food processor and pulse; add up to 2 T cold water until dough forms.",
+        "2": "Form dough into a disk and wrap in plastic; refrigerate 20 minutes. Press dough into bottom and up sides of a 9' tart pan, line with foil, and add pie weights.",
+        "3": "Bake 20 minutes, .move foil and weights, and continue baking 15 minutes.",
+        "4": "Whisk first 4 filling ingredients in a saucepan over medium heat until it thickens. Remove from heat; whisk in the rest until creamy.",
+        "5": "Pour into cooled crust and refrigerate 2 hours. Toss sugar and berries; let stand 10 minutes and top cheesecake."
+      }
+    },
+    {
+      "id":"5",
+      "source": "Taste of Home",
+      "description": "Chock-full or veggies, this aromatic soup has just the right hint of curry. It's a delicious way to use up leftover turkey. - Virginia Anthony. Jacksonville, Florida.",
+      "image":"",
+      "name": "Curried Turkey Vegetable Soup",
+      "tags": ["all","soup"],
+      "multipart":false,
+      "ingredients":{
+        "1": "2 medium onions, chopped",
+        "2": "2 tablespoons canola oil",
+        "3": "1 teaspoon curry powder",
+        "4": "2 to 3 tablespoons all-purpose flour",
+        "5": "3 cups reduced- sodium chicken broth",
+        "6": "1 cup diced red potatoes",
+        "7": "1 celery rib, sliced",
+        "8": "1/2 cup thinly sliced fresh carrots",
+        "9": "2 tablespoons minced fresh parsley",
+        "10": "1-1/2 teaspoons minced fresh sage",
+        "11": "2 cups cubed cooked turkey breast",
+        "12": "1 1-2 cups fat-free half-and-half",
+        "13": "1 package (9 ounces)fresh baby spinach, coarsely chopped",
+        "14": "1/4 teaspoon each salt and pepper"
+      },
+      "instructions":{
+        "1": "In a Dutch oven, sauté onions in oil until tender. Stir in flour and curry until blended. Gradually stir in broth. Add the potatoes, celery, carrots, parsley, and sage. Bring to a boil. Reduce heat; cover and simmer for 10-12 minutes or until vegetables are tender.",
+        "2": "Stir in the turkey, half-and-half, spinach, salt and pepper. cook and stir until spinach is wilted and soup is heated through."
+      }
+    },
+    {
+      "id":"6",
+      "source": "Soups and Stews Better homes and gardens win money for recipes (1989)",
+      "description": "Start with a can of potato soup to make this terrific quick- fix vegetable soup - LaNae Minton, Cheyenne, Wyo",
+      "image":"",
+      "name": "Cheesy Vegetable Soup",
+      "tags": ["all","soup"],
+      "multipart":false,
+      "ingredients":{
+        "1": "2 Tbsp. chopped onion",
+        "2": "1 Tbsp. butter",
+        "3": "1 cup frozen loose-pack whole kernel corn",
+        "4": "1/2 cup chopped broccoli",
+        "5": "1/4 shredded carrot",
+        "6": "1 cup diced red potatoes",
+        "7": "1 10 3/4-oz can condensed cream of potato soup",
+        "8": "1 cup mild",
+        "9": "1/4 shredded cheddar cheese(1 oz.)",
+        "10": "1 oz. provolone cheese, cut up",
+        "11": "Dash pepper"
+      },
+      "instructions":{
+        "1": "In a Dutch oven, sauté onions in oil until tender. Stir in flour and curry until blended. Gradually stir in broth. Add the potatoes, celery, carrots, parsley, and sage. Bring to a boil. Reduce heat; cover and simmer for 10-12 minutes or until vegetables are tender.",
+        "2": "Stir in the turkey, half-and-half, spinach, salt and pepper. cook and stir until spinach is wilted and soup is heated through."
+      }
+    },
+    {
+      "id":"7",
+      "source": "Taste of Home",
+      "description": "I invented this fast weeknight dish using frozen tilapia fillets. My entire family loved it! I often serve it with crusty rolls, salad and a rice dish ... and it always gets raves! - CHRISTINE BISSONETTE. SCOTIA, NEW YORK",
+      "image":"",
+      "name": "Veggie-Topped Tilapia",
+      "tags": ["all","mainDish","fish"],
+      "multipart":false,
+      "ingredients":{
+        "1": "4 tilapia fillets (5 ounces each)",
+        "2": "1/3 cup white wine or reduced- sodium chicken broth",
+        "3": "1/2 teaspoon seafood seasoning",
+        "4": "1 medium onion, finely chopped",
+        "5": "1 medium green pepper, finely chopped",
+        "6": "1 small tomato, chopped",
+        "7": "3 tablespoons lemon juice",
+        "8": "1 teaspoon olive oil",
+        "9": "1/4 teaspoon garlic powder",
+        "10": "1/4 cup shredded Parmesan cheese"
+      },
+      "instructions":{
+        "1": "Place fillets in a 13-in. x 9-in. baking dish coated with cooking spray. Drizzle with wine or broth; sprinkle with seafood seasoning. Combine the onion, green pepper, tomato, lemon juice, oil and garlic powder; spoon over fillets.",
+        "2": "Cover and bake at 425° for 15 minutes. Uncover; sprinkle with Parmesan cheese. Bake 5-10 minutes longer or until vegetables are tender and fish flakes easily with a fork."
+      }
+    },
+    {
+      "id":"8",
+      "source": "Grandmas Kitchen",
+      "description": "A piping-hot bowl of this hearty soup can chase away the chills on cold day <br> Grandma's Secrets <br> To make this a filling meal, Grandma usually served this soup with fresh bread. For a slightly different twist, serve it in individual bread bowls. To make them, buy small. round loaves of a hearty bread, such as Italian, and slice off a small piece from the top. Then remove the inside of the loaf. leaving a 1A-inch shell; fill with hot soup.",
+      "image":"",
+      "name": "Chunky Potato Soup",
+      "tags": ["all","soup"],
+      "multipart":false,
+      "ingredients":{
+        "1": "3 medium red potatoes",
+        "2": "2 cups water",
+        "3": "1 small onion",
+        "4": "3 tablespoons butter",
+        "5": "3 tablespoons all-purpose flour",
+        "6": "Crushed red pepper flakes",
+        "7": "Ground black pepper",
+        "8": "3 cups milk",
+        "9": "1/2 teaspoon sugar",
+        "10": "1 cup shredded Cheddar cheese",
+        "11": "1 cup cubed cooked ham"
+      },
+      "instructions":{
+        "1": "Peel potatoes and cut into 1-inch cubes",
+        "2": "Bring water to a boil in large saucepan. Add potatoes and cook until tender. Drain, reserving liquid. Set aside potatoes. Measure 1 cup cooking liquid, adding water, if necessary; set aside.",
+        "3": "Peel and finely chop onion. Melt butter in saucepan over medium heat. Add onion to saucepan; cook, stirring frequently, until onion is translucent and tender, but not brown.",
+        "4": "Gradually add potatoes, reserved 1 cup cooking liquid, milk and sugar to onion mixture in saucepan; stir well. Add cheese and ham. Simmer over low heat 30 minutes, stirring frequently. Store leftovers, covered, in refrigerator."
+      }
+    }
+  ]
+}
+

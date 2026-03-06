@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Recipe Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="Script1.js" defer></script>
+    <link rel="stylesheet" href="StyleSheet1.css">
+</head>
+<body>
+    <header class="title"><a href="index.html">The Recipe Book</a></header>
+    <div id="navbar-placeholder"></div>
+    <nav>
+        <div>
+            <ul>
+                <li><a class="text" id="dessert" href="recipeNav.html?category=dessert">Desserts</a></li>
+                <li><a class="text" id="soup" href="recipeNav.html?category=soup">Soup</a></li>
+                <li><a class="text" id="mainDish" href="recipeNav.html?category=mainDish">Main Dishes</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="leftsidebtn">
+            <button class="button1" onclick="location.href='favorites.html'">Personal Favorites</button>
+            <button class="button1" onclick="location.href='recipeNav.html?category=all'">Recipes</button>
+        </div>
+
+        <div class="main">
+            <h2>About</h2>
+            <p>
+                This website is deticated to all of the random recipe cards in my familys kitchen. We've collected alot over the years and I'm hoping to showcase all of them! Along with that is some commenly used recipes that do have websites. 
+            </p>
+        </div>
+    </div>
+    <footer class="bottom">
+        <div></div>
+    </footer>
+</body>
+
+</html>
