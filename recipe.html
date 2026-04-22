@@ -17,18 +17,19 @@
                 <li><a class="text" id="dessert" href="recipeNav.html?category=dessert">Desserts</a></li>
                 <li><a class="text" id="soup" href="recipeNav.html?category=soup">Soup</a></li>
                 <li><a class="text" id="mainDish" href="recipeNav.html?category=mainDish">Main Dishes</a></li>
+                <li><a class="text" id="all" href="recipeNav.html?category=all">All Recipes</a></li>
             </ul>
         </div>
     </nav>
     <div class="recipe" id="recipe">
-    <article>
-        <header>
-            <h1 id="respName"></h1>
-        </header>
-        <div class="recipe-description">
-            <p id="description"></p>
-        </div>
-        <fieldset>
+    <article class="recipe-card">
+        <div class="col1">
+            <header>
+                <h1 id="respName"></h1>
+            </header>
+            <div class="recipe-description">
+                <p id="description"></p>
+            </div>
             <section id="ingreSection">
                 <h2 class="text" id="ingreList">Ingredients</h2>
 
@@ -36,10 +37,13 @@
             <section id="instrsection">
                 <h2>Instructions</h2>
                 <ul class="text" id="steps">
-
                 </ul>
             </section>
-        </fieldset>
+        </div>
+        <div id="col2">
+
+
+        </div>
 
     </article>
     </div>

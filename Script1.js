@@ -19,23 +19,23 @@ fetch('recipes.json')
 
 // populates and creates the ingredients li html elements
 function populateIngre(recipeid){
-    console.log(recipeList.Recipes[recipeid].instructions)
     var section = document.getElementById("ingreSection");
-    section.innerHTML = '<h2 id="ingreList">Ingredients</h2>'
-    if (recipeList.Recipes[recipeid].multipart == true){
-        for (let i = 0; i < Object.keys(recipeList.Recipes[recipeid].ingredients).length; i++){
+    section.innerHTML = '<h2 id="ingreList">Ingredients</h2>';
+    var ingredients = recipeList[recipeid].ingredientSections;
+    if (ingredients.length > 1 ){
+        for (let i = 0; i < ingredients.length; i++){
             //Add ingredient header 
             var h3 = document.createElement("h3");
-            h3.textContent = recipeList.Recipes[recipeid].ingredients[i].name
+            h3.textContent = ingredients[i].title
             section.appendChild(h3)
 
             //add <ul> list for each
             var ul = document.createElement("ul");
             section.appendChild(ul)
-            for (let j = 1; j < Object.keys(recipeList.Recipes[recipeid].ingredients[i]["ingredient-list"]).length; j++){
+            for (let j = 0; j < ingredients[i].items.length; j++){
                 var temp = String(j)
                 var li = document.createElement("li");
-                li.textContent = recipeList.Recipes[recipeid].ingredients[i]["ingredient-list"][temp];
+                li.textContent = ingredients[i].items[j].text;
                 ul.appendChild(li);       
         }
     }
@@ -43,11 +43,10 @@ function populateIngre(recipeid){
             //append lists of ingredients with no header
             var ul = document.createElement("ul");
             section.appendChild(ul)
-            var keys = Object.keys(recipeList.Recipes[recipeid].ingredients);
-            for (let j = 1; j < keys.length +1 ; j++){
-                var temp = String(j)
+            
+            for (let j = 0; j < ingredients[0].items.length; j++){
                 var li = document.createElement("li");
-                li.textContent = recipeList.Recipes[recipeid].ingredients[temp];
+                li.textContent = ingredients[0].items[j].text;
                 ul.appendChild(li);       
         }
     }
@@ -58,9 +57,9 @@ function populateIngre(recipeid){
 function populateStep(recipeid){
     var ul = document.getElementById("steps");
         ul.innerHTML = "";
-    stepkeys = Object.keys(recipeList.Recipes[recipeid].instructions);
+    stepkeys = recipeList[recipeid].instructions;
     for (let i = 0; i < stepkeys.length; i++) {
-        var key = stepkeys[i]
+        var key = i + 1
         var li = document.createElement("li");
         ul.appendChild(li);
         // creates the index of the step
@@ -71,7 +70,7 @@ function populateStep(recipeid){
         //creates the 
         var descdiv = document.createElement("div");
         descdiv.classList.add("stepDescription");
-        descdiv.textContent = recipeList.Recipes[recipeid].instructions[key];
+        descdiv.textContent = recipeList[recipeid].instructions[i];
 
         //appends the index and the step
         li.appendChild(indexdiv);
@@ -79,6 +78,18 @@ function populateStep(recipeid){
 
     }
 }
+
+
+function loadRecipeImg(recipeid, div){
+    for(let i = 0; i < recipeList[recipeid].images.length; i++){
+        var img = document.createElement("img")
+        img.classList.add("recipeImg")
+        img.src = recipeList[recipeid].images[i]
+        div.appendChild(img)
+    }
+
+}
+
 
 //"loads" the recipe in recipe.html
 function loadRecipe(){
@@ -88,16 +99,26 @@ function loadRecipe(){
     const recipeId = params.get('id');
     //Adds the name to the page
     var name = document.getElementById('respName');
-    name.innerHTML = recipeList.Recipes[recipeId].name;
+    name.innerHTML = recipeList[recipeId].name;
 
     //Adds the description to the page
-    var name = document.getElementById('description');
-    name.innerHTML = recipeList.Recipes[recipeId].description;
+    if (recipeList[recipeId].description != ""){
+        var description = document.getElementById('description');
+        description.innerHTML = recipeList[recipeId].description;
+    } 
+
+
+    //Add the img to the page
+    var imgcontainer = document.getElementById('col2');
+    loadRecipeImg(recipeId, imgcontainer)
+
 
     //adds the ingredients and steps
     populateIngre(recipeId);
     populateStep(recipeId);
 }
+
+
 
 //gets the category of recipes that loadRecipeCard() is supposed to "load"
 function loadRecipeNav(){
@@ -113,7 +134,7 @@ function loadRecipeNav(){
 function loadRecipeCard(category){
     var container = document.getElementById("recipe-container");
     container.innerHTML = "";
-    var recipes = recipeList.Recipes;
+    var recipes = recipeList;
     var filteredList = recipes.filter(recipe =>
             recipe.tags.includes(category)
         );

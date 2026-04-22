@@ -1,314 +1,2107 @@
-{
-  "Recipes": [
-    {
-      "id":"0",
-      "source": "",
-      "image":"",
-      "name": "Apple Upside Down Cake",
-      "description":"",
-      "tags": ["all","dessert"],
-      "multipart": true,
-      "ingredients": [
-        { 
-          "name": "CARAMEL BASE",
-          "ingredient-list": {
-            "1": "1 cup sugar",
-            "2": "1/3 cup water",
-            "3": "1 tsp cinnamon",
-            "4": "3 lg baking apples (peeled & sliced)",
-            "5": "6 Tbls Butter",
-            "6": "1/8 tsp salt"
-
+[
+  {
+    "id": "0",
+    "name": "Apple Upside Down Cake",
+    "source": "",
+    "description": "",
+    "tags": [
+      "all",
+      "dessert"
+    ],
+    "images": [
+      ""
+    ],
+    "ingredientSections": [
+      {
+        "title": "CARAMEL BASE",
+        "items": [
+          {
+            "text": "1 cup sugar",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "sugar"
+          },
+          {
+            "text": "1/3 cup water",
+            "quantity": 0.333,
+            "unit": "cup",
+            "name": "water"
+          },
+          {
+            "text": "1 tsp cinnamon",
+            "quantity": 1.0,
+            "unit": "tsp",
+            "name": "cinnamon"
+          },
+          {
+            "text": "3 lg baking apples (peeled & sliced)",
+            "quantity": 3.0,
+            "unit": "large",
+            "name": "baking apples",
+            "notes": "peeled & sliced"
+          },
+          {
+            "text": "6 Tbls Butter",
+            "quantity": 6.0,
+            "unit": "Tbls",
+            "name": "Butter"
+          },
+          {
+            "text": "1/8 tsp salt",
+            "quantity": 0.125,
+            "unit": "tsp",
+            "name": "salt"
           }
+        ]
       },
-        {
-          "name": "CAKE",
-          "ingredient-list": {
-            "1": "6 Tbls butter (softened)",
-            "2": "3/4 cup sugar",
-            "3": "1 tsp vanilla",
-            "4": "1 egg",
-            "5": "2 egg yolks",
-            "6": "1 cup flour",
-            "7": "1 tsp baking powder",
-            "8": "1/4 tsp salt",
-            "9": "1/2 cup milk"
-
+      {
+        "title": "CAKE",
+        "items": [
+          {
+            "text": "6 Tbls butter (softened)",
+            "quantity": 6.0,
+            "unit": "Tbls",
+            "name": "butter",
+            "notes": "softened"
+          },
+          {
+            "text": "3/4 cup sugar",
+            "quantity": 0.75,
+            "unit": "cup",
+            "name": "sugar"
+          },
+          {
+            "text": "1 tsp vanilla",
+            "quantity": 1.0,
+            "unit": "tsp",
+            "name": "vanilla"
+          },
+          {
+            "text": "1 egg",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "egg"
+          },
+          {
+            "text": "2 egg yolks",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "egg yolks"
+          },
+          {
+            "text": "1 cup flour",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "flour"
+          },
+          {
+            "text": "1 tsp baking powder",
+            "quantity": 1.0,
+            "unit": "tsp",
+            "name": "baking powder"
+          },
+          {
+            "text": "1/4 tsp salt",
+            "quantity": 0.25,
+            "unit": "tsp",
+            "name": "salt"
+          },
+          {
+            "text": "1/2 cup milk",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "milk"
           }
+        ]
       }
-  ],
-      "instructions": {
-        "1": "Preheat oven to 350°. Grease a 9' round cake pan",
-        "2": "In a saucepan, stir in caramel ingredients and heat over medium heat for 3 minutes. Pour into baking pan.",
-        "3": "Cook apples, butter, and salt in a skillet until tender, about 10 minutes. Arrange cooled apples over caramel starting in the center and working out.",
-        "4": "In a seperate bowl beat butter and add sugar slowly.",
-        "5": "Beat in vanilla and eggs. Add dry ingredients in 3 parts, alternating with milk. Spread batter over apples.",
-        "6": "Tap pan twice on counter and bake for 40 minutes. Cool for 20 minutes before running sharp knife around sides and removing cake to a platter. Let cool."
-      }
-    },
-    {
-      "id":"1",
-      "source": "Smucker's",
-      "image":"",
-      "name": "Asian Noodles",
-      "description":"",
-      "tags": ["all","mainDish"],
-      "multipart": true,
-      "ingredients": [
-        {
-            "name": "",
-          "ingredient-list": {
-            "1": "1 1/4 cup Smucker's Natural Peanut Butter",
-            "2": "1/2 cup coconut milk or sour cream",
-            "3": "1/2 cup soy sauce",
-            "4": "3 tablespoons fresh lime juice",
-            "5": "2 tablespoons honey",
-            "6": "1 piece ginger root (approximately 1x2-inches)",
-            "7": "4 cloves garlic",
-            "8": "1/4 teaspoon crushed red pepper"
+    ],
+    "instructions": [
+      "Preheat oven to 350\u00b0. Grease a 9' round cake pan",
+      "In a saucepan, stir in caramel ingredients and heat over medium heat for 3 minutes. Pour into baking pan.",
+      "Cook apples, butter, and salt in a skillet until tender, about 10 minutes. Arrange cooled apples over caramel starting in the center and working out.",
+      "In a seperate bowl beat butter and add sugar slowly.",
+      "Beat in vanilla and eggs. Add dry ingredients in 3 parts, alternating with milk. Spread batter over apples.",
+      "Tap pan twice on counter and bake for 40 minutes. Cool for 20 minutes before running sharp knife around sides and removing cake to a platter. Let cool."
+    ]
+  },
+  {
+    "id": "1",
+    "name": "Asian Noodles",
+    "source": "Smucker's",
+    "description": "",
+    "tags": [
+      "all",
+      "mainDish",
+      "noodles"
+    ],
+    "images": [
+      "Pictures/Asian Noodles_0001.webp",
+      "Pictures/Asian Noodles_0002.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "1 1/4 cup Smucker's Natural Peanut Butter",
+            "quantity": 1.25,
+            "unit": "cup",
+            "name": "Smucker's Natural Peanut Butter"
+          },
+          {
+            "text": "1/2 cup coconut milk or sour cream",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "coconut milk or sour cream"
+          },
+          {
+            "text": "1/2 cup soy sauce",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "soy sauce"
+          },
+          {
+            "text": "3 tablespoons fresh lime juice",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "name": "fresh lime juice"
+          },
+          {
+            "text": "2 tablespoons honey",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "name": "honey"
+          },
+          {
+            "text": "1 piece ginger root (approximately 1x2-inches)",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "piece ginger root",
+            "notes": "approximately 1x2-inches"
+          },
+          {
+            "text": "4 cloves garlic",
+            "quantity": 4.0,
+            "unit": "cloves",
+            "name": "garlic"
+          },
+          {
+            "text": "1/4 teaspoon crushed red pepper",
+            "quantity": 0.25,
+            "unit": "tsp",
+            "name": "crushed red pepper"
           }
-        },
-         {
-            "name": "For the garnish:",
-          "ingredient-list": {
-            "1": "1 cup seedless cucumber, sliced and quartered",
-            "2": "2 green onions, chopped (use both white and green parts)",
-            "3": "1/4 cup finely diced red bell pepper",
-            "4": "12 oz. thin spaghetti or vermicell"
-          }
-          }
-        ],
-      "instructions": {
-        "1": "Place all sauce ingredients in a blender; blend on medium-high until smooth. Cover and refrigerate sauce until needed.",
-        "2": "Cook pasta according to package directions; drain. Transfer cooked pasta to a large bowl, add cold water to cover pasta and let chill approximately 5 minutes or until pasta is no longer warm to the touch.",
-        "3": "Drain pasta; add sauce to the bowl and stir to thoroughly coat pasta. (If sauce seems too thick, add 2 tablespoons water and mix well.)",
-        "4": "Divide pasta into individual servings and garnish each with cucumber, green onion and red pepper."
-      }
-    },
-    {
-      "id":"2",
-      "source": "Taste of Home",
-      "description": "I like using a colorful blend of peppers to brighten this skillet specialty-and a little balsamic vinegar to flavor the tender chicken. If you prefer a stronger flavor, add a little more! Author: Valerie Moore. Stilwell, Kansas.",
-      "image":"",
-      "name": "Balsamic Chicken and Peppers",
-      "tags": ["all","mainDish"],
-      "multipart":false,
-      "ingredients":{
-        "1":"4 boneless skinless chicken breast halves(4 ounces each)",
-        "2": "1/4 teaspoon  pepper",
-        "3": "1/8 teaspoon salt",
-        "4": "2 tablespoons olive oil, divided",
-        "5": "1 each medium sweet yellow red and orange peppers, julienned",
-        "6": "1 small onion, sliced",
-        "7": "2 tablespoons balsamic vinegar"
+        ]
       },
-      "instructions":{
-        "1": "Sprinkle chicken with pepper and salt. In a large skillet, cook the chicken in 1 tablespoon oil for 4-6 minutes in each side or until a meat thermometer reach's 170; drain. Remove chicken and keep warm",
-        "2": "In the same skillet, sauté peppers and onion in remaining oil for 3-4 minutes or until tender. Return chicken to the pan. Add vinegar; heat through."
+      {
+        "title": "For the garnish:",
+        "items": [
+          {
+            "text": "1 cup seedless cucumber, sliced and quartered",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "seedless cucumber, sliced and quartered"
+          },
+          {
+            "text": "2 green onions, chopped (use both white and green parts)",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "green onions, chopped",
+            "notes": "use both white and green parts"
+          },
+          {
+            "text": "1/4 cup finely diced red bell pepper",
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "finely diced red bell pepper"
+          },
+          {
+            "text": "12 oz. thin spaghetti or vermicell",
+            "quantity": 12.0,
+            "unit": "oz.",
+            "name": "thin spaghetti or vermicell"
+          }
+        ]
       }
-    },
-    {
-      "id":"3",
-      "source": "",
-      "image":"",
-      "name": "Bark",
-      "description":"",
-      "tags": ["all","dessert"],
-      "multipart":true,
-      "ingredients":[
-        {
-          "name": "Oreo Bark",
-          "ingredient-list": {
-          "1": "2 lbs of white chocolate",
-          "2": "2 sleeves or Oreo Cookies"
+    ],
+    "instructions": [
+      "Place all sauce ingredients in a blender; blend on medium-high until smooth. Cover and refrigerate sauce until needed.",
+      "Cook pasta according to package directions; drain. Transfer cooked pasta to a large bowl, add cold water to cover pasta and let chill approximately 5 minutes or until pasta is no longer warm to the touch.",
+      "Drain pasta; add sauce to the bowl and stir to thoroughly coat pasta. (If sauce seems too thick, add 2 tablespoons water and mix well.)",
+      "Divide pasta into individual servings and garnish each with cucumber, green onion and red pepper."
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Balsamic Chicken and Peppers",
+    "source": "Taste of Home",
+    "description": "I like using a colorful blend of peppers to brighten this skillet specialty-and a little balsamic vinegar to flavor the tender chicken. If you prefer a stronger flavor, add a little more! Author: Valerie Moore. Stilwell, Kansas.",
+    "tags": [
+      "all",
+      "mainDish",
+      "chicken"
+    ],
+    "images": [
+      "Pictures/balsamic chicken and peppers_0001.webp",
+      "Pictures/balsamic chicken and peppers_0002.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "4 boneless skinless chicken breast halves(4 ounces each)",
+            "quantity": 4.0,
+            "unit": null,
+            "name": "boneless skinless chicken breast halves",
+            "notes": "4 ounces each"
+          },
+          {
+            "text": "1/4 teaspoon  pepper",
+            "quantity": 0.25,
+            "unit": "tsp",
+            "name": "pepper"
+          },
+          {
+            "text": "1/8 teaspoon salt",
+            "quantity": 0.125,
+            "unit": "tsp",
+            "name": "salt"
+          },
+          {
+            "text": "2 tablespoons olive oil, divided",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "name": "olive oil, divided"
+          },
+          {
+            "text": "1 each medium sweet yellow red and orange peppers, julienned",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "each medium sweet yellow red and orange peppers, julienned"
+          },
+          {
+            "text": "1 small onion, sliced",
+            "quantity": 1.0,
+            "unit": "small",
+            "name": "onion, sliced"
+          },
+          {
+            "text": "2 tablespoons balsamic vinegar",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "name": "balsamic vinegar"
           }
-        },
-        
-        {
-          "name":"Tiger Butter",
-          "ingredient-list": {
-          "1": "2 lbs of white chocolate",
-          "2": "1/2 lb creamy peanut butter chocolate for striping"
-          }
-        },
-        
-        {
-          "name":"Avalanche Bark",
-          "ingredient-list": {
-          "1": "1 1/2 lbs of white chocolate",
-          "2": "1/2 lb peanut butter",
-          "3": "1/4 lb rice cereal",
-          "4": "1/3 lb small marshmallows",
-          "5": "1/2 lb semi-sweet chocolate chips"
-          }
-        },
-        
-        {
-          "name": "Grasshopper Bark",
-          "ingredient-list": {
-          "1": "2 lbs of white chocolate",
-          "2": "1/2 lb green peppermint melting wafers"
-          }
-        }
-  ],
-      "instructions":{
-        "1": "Melt chocolate in microwave or double broiler. Add other ingredients. Cool until firm. Cut into bars"
+        ]
       }
-    },
-    {
-      "id":"4",
-      "source":"",
-      "image":"",
-      "name": "Berry Cheesecake Tart",
-      "description":"",
-      "tags":["all","dessert"],
-      "multipart":true,
-      "ingredients":[
-        {
-          "name": "Crust",
-          "ingredient-list": {
-            "1": "1 cup flour",
-            "2": "1/4 cup almonds (ground)",
-            "3": "1/2 tsp salt",
-            "4": "1/4 tsp cinnamon",
-            "5": "1/4 cup shortening ",
-            "6": "1/4 cup almonds (ground)",
-            "7": "2 tbls sugar"
-
+    ],
+    "instructions": [
+      "Sprinkle chicken with pepper and salt. In a large skillet, cook the chicken in 1 tablespoon oil for 4-6 minutes in each side or until a meat thermometer reach's 170; drain. Remove chicken and keep warm",
+      "In the same skillet, saut\u00c3\u00a9 peppers and onion in remaining oil for 3-4 minutes or until tender. Return chicken to the pan. Add vinegar; heat through."
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Bark",
+    "source": "",
+    "description": [
+      ""
+    ],
+    "tags": [
+      "all",
+      "dessert"
+    ],
+    "images": [
+      "Pictures/bark.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "Oreo Bark",
+        "items": [
+          {
+            "text": "2 lbs of white chocolate",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "lbs of white chocolate"
+          },
+          {
+            "text": "2 sleeves or Oreo Cookies",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "sleeves or Oreo Cookies"
           }
-        },
-        {
-          "name": "Filling",
-          "ingredient-list": {
-            "1": "1 1/2 cup half & half",
-            "2": "1/4 cup cornstarch",
-            "3": "4 egg yolk",
-            "4": "1/2 cup sugar",
-            "5": "2 egg yolks",
-            "6": "8oz cream cheese(softened)",
-            "7": "1/2 tbls lemon juice",
-            "8": "1 tsp vanilla",
-            "9": "16oz berries(fresh)",
-            "10": "2 tbls sugar"
-          }
-        }
-  ],
-      "instructions":{
-        "1": "Preheat oven to 375°. Place all crust ingredients in food processor and pulse; add up to 2 T cold water until dough forms.",
-        "2": "Form dough into a disk and wrap in plastic; refrigerate 20 minutes. Press dough into bottom and up sides of a 9' tart pan, line with foil, and add pie weights.",
-        "3": "Bake 20 minutes, .move foil and weights, and continue baking 15 minutes.",
-        "4": "Whisk first 4 filling ingredients in a saucepan over medium heat until it thickens. Remove from heat; whisk in the rest until creamy.",
-        "5": "Pour into cooled crust and refrigerate 2 hours. Toss sugar and berries; let stand 10 minutes and top cheesecake."
-      }
-    },
-    {
-      "id":"5",
-      "source": "Taste of Home",
-      "description": "Chock-full or veggies, this aromatic soup has just the right hint of curry. It's a delicious way to use up leftover turkey. - Virginia Anthony. Jacksonville, Florida.",
-      "image":"",
-      "name": "Curried Turkey Vegetable Soup",
-      "tags": ["all","soup"],
-      "multipart":false,
-      "ingredients":{
-        "1": "2 medium onions, chopped",
-        "2": "2 tablespoons canola oil",
-        "3": "1 teaspoon curry powder",
-        "4": "2 to 3 tablespoons all-purpose flour",
-        "5": "3 cups reduced- sodium chicken broth",
-        "6": "1 cup diced red potatoes",
-        "7": "1 celery rib, sliced",
-        "8": "1/2 cup thinly sliced fresh carrots",
-        "9": "2 tablespoons minced fresh parsley",
-        "10": "1-1/2 teaspoons minced fresh sage",
-        "11": "2 cups cubed cooked turkey breast",
-        "12": "1 1-2 cups fat-free half-and-half",
-        "13": "1 package (9 ounces)fresh baby spinach, coarsely chopped",
-        "14": "1/4 teaspoon each salt and pepper"
+        ]
       },
-      "instructions":{
-        "1": "In a Dutch oven, sauté onions in oil until tender. Stir in flour and curry until blended. Gradually stir in broth. Add the potatoes, celery, carrots, parsley, and sage. Bring to a boil. Reduce heat; cover and simmer for 10-12 minutes or until vegetables are tender.",
-        "2": "Stir in the turkey, half-and-half, spinach, salt and pepper. cook and stir until spinach is wilted and soup is heated through."
-      }
-    },
-    {
-      "id":"6",
-      "source": "Soups and Stews Better homes and gardens win money for recipes (1989)",
-      "description": "Start with a can of potato soup to make this terrific quick- fix vegetable soup - LaNae Minton, Cheyenne, Wyo",
-      "image":"",
-      "name": "Cheesy Vegetable Soup",
-      "tags": ["all","soup"],
-      "multipart":false,
-      "ingredients":{
-        "1": "2 Tbsp. chopped onion",
-        "2": "1 Tbsp. butter",
-        "3": "1 cup frozen loose-pack whole kernel corn",
-        "4": "1/2 cup chopped broccoli",
-        "5": "1/4 shredded carrot",
-        "6": "1 cup diced red potatoes",
-        "7": "1 10 3/4-oz can condensed cream of potato soup",
-        "8": "1 cup mild",
-        "9": "1/4 shredded cheddar cheese(1 oz.)",
-        "10": "1 oz. provolone cheese, cut up",
-        "11": "Dash pepper"
+      {
+        "title": "Tiger Butter",
+        "items": [
+          {
+            "text": "2 lbs of white chocolate",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "lbs of white chocolate"
+          },
+          {
+            "text": "1/2 lb creamy peanut butter chocolate for striping",
+            "quantity": 0.5,
+            "unit": "lb",
+            "name": "creamy peanut butter chocolate for striping"
+          }
+        ]
       },
-      "instructions":{
-        "1": "In a medium saucepan cook onion in hot butter till tender but not brown. Add corn, broccoli, carrot, and water. Bring to boiling; reduce heat.",
-        "2": "Cover and simmer for 10 minutes or till vegetables are tender. Stir in soup, milk, cheeses, and pepper. Cook and stir over medium heat till cheese is melted and mixture is heated though, Makes 4 side-dish servings."
-      }
-    },
-    {
-      "id":"7",
-      "source": "Taste of Home",
-      "description": "I invented this fast weeknight dish using frozen tilapia fillets. My entire family loved it! I often serve it with crusty rolls, salad and a rice dish ... and it always gets raves! - CHRISTINE BISSONETTE. SCOTIA, NEW YORK",
-      "image":"",
-      "name": "Veggie-Topped Tilapia",
-      "tags": ["all","mainDish","fish"],
-      "multipart":false,
-      "ingredients":{
-        "1": "4 tilapia fillets (5 ounces each)",
-        "2": "1/3 cup white wine or reduced- sodium chicken broth",
-        "3": "1/2 teaspoon seafood seasoning",
-        "4": "1 medium onion, finely chopped",
-        "5": "1 medium green pepper, finely chopped",
-        "6": "1 small tomato, chopped",
-        "7": "3 tablespoons lemon juice",
-        "8": "1 teaspoon olive oil",
-        "9": "1/4 teaspoon garlic powder",
-        "10": "1/4 cup shredded Parmesan cheese"
+      {
+        "title": "Avalanche Bark",
+        "items": [
+          {
+            "text": "1 1/2 lbs of white chocolate",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "1/2 lbs of white chocolate"
+          },
+          {
+            "text": "1/2 lb peanut butter",
+            "quantity": 0.5,
+            "unit": "lb",
+            "name": "peanut butter"
+          },
+          {
+            "text": "1/4 lb rice cereal",
+            "quantity": 0.25,
+            "unit": "lb",
+            "name": "rice cereal"
+          },
+          {
+            "text": "1/3 lb small marshmallows",
+            "quantity": 0.333,
+            "unit": "lb",
+            "name": "small marshmallows"
+          },
+          {
+            "text": "1/2 lb semi-sweet chocolate chips",
+            "quantity": 0.5,
+            "unit": "lb",
+            "name": "semi-sweet chocolate chips"
+          }
+        ]
       },
-      "instructions":{
-        "1": "Place fillets in a 13-in. x 9-in. baking dish coated with cooking spray. Drizzle with wine or broth; sprinkle with seafood seasoning. Combine the onion, green pepper, tomato, lemon juice, oil and garlic powder; spoon over fillets.",
-        "2": "Cover and bake at 425° for 15 minutes. Uncover; sprinkle with Parmesan cheese. Bake 5-10 minutes longer or until vegetables are tender and fish flakes easily with a fork."
+      {
+        "title": "Grasshopper Bark",
+        "items": [
+          {
+            "text": "2 lbs of white chocolate",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "lbs of white chocolate"
+          },
+          {
+            "text": "1/2 lb green peppermint melting wafers",
+            "quantity": 0.5,
+            "unit": "lb",
+            "name": "green peppermint melting wafers"
+          }
+        ]
       }
-    },
-    {
-      "id":"8",
-      "source": "Grandmas Kitchen",
-      "description": "A piping-hot bowl of this hearty soup can chase away the chills on cold day <br> Grandma's Secrets <br> To make this a filling meal, Grandma usually served this soup with fresh bread. For a slightly different twist, serve it in individual bread bowls. To make them, buy small. round loaves of a hearty bread, such as Italian, and slice off a small piece from the top. Then remove the inside of the loaf. leaving a 1A-inch shell; fill with hot soup.",
-      "image":"",
-      "name": "Chunky Potato Soup",
-      "tags": ["all","soup"],
-      "multipart":false,
-      "ingredients":{
-        "1": "3 medium red potatoes",
-        "2": "2 cups water",
-        "3": "1 small onion",
-        "4": "3 tablespoons butter",
-        "5": "3 tablespoons all-purpose flour",
-        "6": "Crushed red pepper flakes",
-        "7": "Ground black pepper",
-        "8": "3 cups milk",
-        "9": "1/2 teaspoon sugar",
-        "10": "1 cup shredded Cheddar cheese",
-        "11": "1 cup cubed cooked ham"
+    ],
+    "instructions": [
+      "Melt chocolate in microwave or double broiler. Add other ingredients. Cool until firm. Cut into bars"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Berry Cheesecake Tart",
+    "source": "",
+    "description": "",
+    "tags": [
+      "all",
+      "dessert"
+    ],
+    "images": [
+      ""
+    ],
+    "ingredientSections": [
+      {
+        "title": "Crust",
+        "items": [
+          {
+            "text": "1 cup flour",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "flour"
+          },
+          {
+            "text": "1/4 cup almonds (ground)",
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "almonds",
+            "notes": "ground"
+          },
+          {
+            "text": "1/2 tsp salt",
+            "quantity": 0.5,
+            "unit": "tsp",
+            "name": "salt"
+          },
+          {
+            "text": "1/4 tsp cinnamon",
+            "quantity": 0.25,
+            "unit": "tsp",
+            "name": "cinnamon"
+          },
+          {
+            "text": "1/4 cup shortening ",
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "shortening"
+          },
+          {
+            "text": "1/4 cup almonds (ground)",
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "almonds",
+            "notes": "ground"
+          },
+          {
+            "text": "2 tbls sugar",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "tbls sugar"
+          }
+        ]
       },
-      "instructions":{
-        "1": "Peel potatoes and cut into 1-inch cubes",
-        "2": "Bring water to a boil in large saucepan. Add potatoes and cook until tender. Drain, reserving liquid. Set aside potatoes. Measure 1 cup cooking liquid, adding water, if necessary; set aside.",
-        "3": "Peel and finely chop onion. Melt butter in saucepan over medium heat. Add onion to saucepan; cook, stirring frequently, until onion is translucent and tender, but not brown.",
-        "4": "Gradually add potatoes, reserved 1 cup cooking liquid, milk and sugar to onion mixture in saucepan; stir well. Add cheese and ham. Simmer over low heat 30 minutes, stirring frequently. Store leftovers, covered, in refrigerator."
+      {
+        "title": "Filling",
+        "items": [
+          {
+            "text": "1 1/2 cup half & half",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "1/2 cup half & half"
+          },
+          {
+            "text": "1/4 cup cornstarch",
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "cornstarch"
+          },
+          {
+            "text": "4 egg yolk",
+            "quantity": 4.0,
+            "unit": null,
+            "name": "egg yolk"
+          },
+          {
+            "text": "1/2 cup sugar",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "sugar"
+          },
+          {
+            "text": "2 egg yolks",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "egg yolks"
+          },
+          {
+            "text": "8oz cream cheese(softened)",
+            "quantity": null,
+            "unit": null,
+            "name": "8oz cream cheese",
+            "notes": "softened"
+          },
+          {
+            "text": "1/2 tbls lemon juice",
+            "quantity": 0.5,
+            "unit": null,
+            "name": "tbls lemon juice"
+          },
+          {
+            "text": "1 tsp vanilla",
+            "quantity": 1.0,
+            "unit": "tsp",
+            "name": "vanilla"
+          },
+          {
+            "text": "16oz berries(fresh)",
+            "quantity": null,
+            "unit": null,
+            "name": "16oz berries",
+            "notes": "fresh"
+          },
+          {
+            "text": "2 tbls sugar",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "tbls sugar"
+          }
+        ]
       }
-    }
-  ]
-}
-
+    ],
+    "instructions": [
+      "Preheat oven to 375\u00c2\u00b0. Place all crust ingredients in food processor and pulse; add up to 2 T cold water until dough forms.",
+      "Form dough into a disk and wrap in plastic; refrigerate 20 minutes. Press dough into bottom and up sides of a 9' tart pan, line with foil, and add pie weights.",
+      "Bake 20 minutes, .move foil and weights, and continue baking 15 minutes.",
+      "Whisk first 4 filling ingredients in a saucepan over medium heat until it thickens. Remove from heat; whisk in the rest until creamy.",
+      "Pour into cooled crust and refrigerate 2 hours. Toss sugar and berries; let stand 10 minutes and top cheesecake."
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Curried Turkey Vegetable Soup",
+    "source": "Taste of Home",
+    "description": "Chock-full or veggies, this aromatic soup has just the right hint of curry. It's a delicious way to use up leftover turkey. - Virginia Anthony. Jacksonville, Florida.",
+    "tags": [
+      "all",
+      "soup",
+      "turkey"
+    ],
+    "images": [
+      ""
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "2 medium onions, chopped",
+            "quantity": 2.0,
+            "unit": "medium",
+            "name": "onions, chopped"
+          },
+          {
+            "text": "2 tablespoons canola oil",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "tablespoons canola oil"
+          },
+          {
+            "text": "1 teaspoon curry powder",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "teaspoon curry powder"
+          },
+          {
+            "text": "2 to 3 tablespoons all-purpose flour",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "to 3 tablespoons all-purpose flour"
+          },
+          {
+            "text": "3 cups reduced- sodium chicken broth",
+            "quantity": 3.0,
+            "unit": "cups",
+            "name": "reduced- sodium chicken broth"
+          },
+          {
+            "text": "1 cup diced red potatoes",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "diced red potatoes"
+          },
+          {
+            "text": "1 celery rib, sliced",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "celery rib, sliced"
+          },
+          {
+            "text": "1/2 cup thinly sliced fresh carrots",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "thinly sliced fresh carrots"
+          },
+          {
+            "text": "2 tablespoons minced fresh parsley",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "tablespoons minced fresh parsley"
+          },
+          {
+            "text": "1-1/2 teaspoons minced fresh sage",
+            "quantity": null,
+            "unit": null,
+            "name": "1-1/2 teaspoons minced fresh sage"
+          },
+          {
+            "text": "2 cups cubed cooked turkey breast",
+            "quantity": 2.0,
+            "unit": "cups",
+            "name": "cubed cooked turkey breast"
+          },
+          {
+            "text": "1 1-2 cups fat-free half-and-half",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "1-2 cups fat-free half-and-half"
+          },
+          {
+            "text": "1 package (9 ounces)fresh baby spinach, coarsely chopped",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "package fresh baby spinach, coarsely chopped",
+            "notes": "9 ounces"
+          },
+          {
+            "text": "1/4 teaspoon each salt and pepper",
+            "quantity": 0.25,
+            "unit": null,
+            "name": "teaspoon each salt and pepper"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "In a Dutch oven, saut\u00c3\u00a9 onions in oil until tender. Stir in flour and curry until blended. Gradually stir in broth. Add the potatoes, celery, carrots, parsley, and sage. Bring to a boil. Reduce heat; cover and simmer for 10-12 minutes or until vegetables are tender.",
+      "Stir in the turkey, half-and-half, spinach, salt and pepper. cook and stir until spinach is wilted and soup is heated through."
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Cheesy Vegetable Soup",
+    "source": "Soups and Stews Better homes and gardens win money for recipes (1989)",
+    "description": "Start with a can of potato soup to make this terrific quick- fix vegetable soup - LaNae Minton, Cheyenne, Wyo",
+    "tags": [
+      "all",
+      "soup",
+      "vegetarian"
+    ],
+    "images": [
+      ""
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "2 Tbsp. chopped onion",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "Tbsp. chopped onion"
+          },
+          {
+            "text": "1 Tbsp. butter",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "Tbsp. butter"
+          },
+          {
+            "text": "1 cup frozen loose-pack whole kernel corn",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "frozen loose-pack whole kernel corn"
+          },
+          {
+            "text": "1/2 cup chopped broccoli",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "chopped broccoli"
+          },
+          {
+            "text": "1/4 shredded carrot",
+            "quantity": 0.25,
+            "unit": null,
+            "name": "shredded carrot"
+          },
+          {
+            "text": "1 cup diced red potatoes",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "diced red potatoes"
+          },
+          {
+            "text": "1 10 3/4-oz can condensed cream of potato soup",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "10 3/4-oz can condensed cream of potato soup"
+          },
+          {
+            "text": "1 cup mild",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "mild"
+          },
+          {
+            "text": "1/4 shredded cheddar cheese(1 oz.)",
+            "quantity": 0.25,
+            "unit": null,
+            "name": "shredded cheddar cheese",
+            "notes": "1 oz."
+          },
+          {
+            "text": "1 oz. provolone cheese, cut up",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "oz. provolone cheese, cut up"
+          },
+          {
+            "text": "Dash pepper",
+            "quantity": null,
+            "unit": null,
+            "name": "Dash pepper"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "In a medium saucepan cook onion in hot butter till tender but not brown. Add corn, broccoli, carrot, and water. Bring to boiling; reduce heat.",
+      "Cover and simmer for 10 minutes or till vegetables are tender. Stir in soup, milk, cheeses, and pepper. Cook and stir over medium heat till cheese is melted and mixture is heated though, Makes 4 side-dish servings."
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Veggie-Topped Tilapia",
+    "source": "Taste of Home",
+    "description": "I invented this fast weeknight dish using frozen tilapia fillets. My entire family loved it! I often serve it with crusty rolls, salad and a rice dish ... and it always gets raves! - CHRISTINE BISSONETTE. SCOTIA, NEW YORK",
+    "tags": [
+      "all",
+      "mainDish",
+      "fish"
+    ],
+    "images": [
+      ""
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "4 tilapia fillets (5 ounces each)",
+            "quantity": 4.0,
+            "unit": null,
+            "name": "tilapia fillets",
+            "notes": "5 ounces each"
+          },
+          {
+            "text": "1/3 cup white wine or reduced- sodium chicken broth",
+            "quantity": 0.333,
+            "unit": "cup",
+            "name": "white wine or reduced- sodium chicken broth"
+          },
+          {
+            "text": "1/2 teaspoon seafood seasoning",
+            "quantity": 0.5,
+            "unit": null,
+            "name": "teaspoon seafood seasoning"
+          },
+          {
+            "text": "1 medium onion, finely chopped",
+            "quantity": 1.0,
+            "unit": "medium",
+            "name": "onion, finely chopped"
+          },
+          {
+            "text": "1 medium green pepper, finely chopped",
+            "quantity": 1.0,
+            "unit": "medium",
+            "name": "green pepper, finely chopped"
+          },
+          {
+            "text": "1 small tomato, chopped",
+            "quantity": 1.0,
+            "unit": "small",
+            "name": "tomato, chopped"
+          },
+          {
+            "text": "3 tablespoons lemon juice",
+            "quantity": 3.0,
+            "unit": null,
+            "name": "tablespoons lemon juice"
+          },
+          {
+            "text": "1 teaspoon olive oil",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "teaspoon olive oil"
+          },
+          {
+            "text": "1/4 teaspoon garlic powder",
+            "quantity": 0.25,
+            "unit": null,
+            "name": "teaspoon garlic powder"
+          },
+          {
+            "text": "1/4 cup shredded Parmesan cheese",
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "shredded Parmesan cheese"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "Place fillets in a 13-in. x 9-in. baking dish coated with cooking spray. Drizzle with wine or broth; sprinkle with seafood seasoning. Combine the onion, green pepper, tomato, lemon juice, oil and garlic powder; spoon over fillets.",
+      "Cover and bake at 425\u00c2\u00b0 for 15 minutes. Uncover; sprinkle with Parmesan cheese. Bake 5-10 minutes longer or until vegetables are tender and fish flakes easily with a fork."
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Chunky Potato Soup",
+    "source": "Grandmas Kitchen",
+    "description": "A piping-hot bowl of this hearty soup can chase away the chills on cold day <br> Grandma's Secrets <br> To make this a filling meal, Grandma usually served this soup with fresh bread. For a slightly different twist, serve it in individual bread bowls. To make them, buy small. round loaves of a hearty bread, such as Italian, and slice off a small piece from the top. Then remove the inside of the loaf. leaving a 1A-inch shell; fill with hot soup.",
+    "tags": [
+      "all",
+      "soup"
+    ],
+    "images": [
+      ""
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "3 medium red potatoes",
+            "quantity": 3.0,
+            "unit": "medium",
+            "name": "red potatoes"
+          },
+          {
+            "text": "2 cups water",
+            "quantity": 2.0,
+            "unit": "cups",
+            "name": "water"
+          },
+          {
+            "text": "1 small onion",
+            "quantity": 1.0,
+            "unit": "small",
+            "name": "onion"
+          },
+          {
+            "text": "3 tablespoons butter",
+            "quantity": 3.0,
+            "unit": null,
+            "name": "tablespoons butter"
+          },
+          {
+            "text": "3 tablespoons all-purpose flour",
+            "quantity": 3.0,
+            "unit": null,
+            "name": "tablespoons all-purpose flour"
+          },
+          {
+            "text": "Crushed red pepper flakes",
+            "quantity": null,
+            "unit": null,
+            "name": "Crushed red pepper flakes"
+          },
+          {
+            "text": "Ground black pepper",
+            "quantity": null,
+            "unit": null,
+            "name": "Ground black pepper"
+          },
+          {
+            "text": "3 cups milk",
+            "quantity": 3.0,
+            "unit": "cups",
+            "name": "milk"
+          },
+          {
+            "text": "1/2 teaspoon sugar",
+            "quantity": 0.5,
+            "unit": null,
+            "name": "teaspoon sugar"
+          },
+          {
+            "text": "1 cup shredded Cheddar cheese",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "shredded Cheddar cheese"
+          },
+          {
+            "text": "1 cup cubed cooked ham",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "cubed cooked ham"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "Peel potatoes and cut into 1-inch cubes",
+      "Bring water to a boil in large saucepan. Add potatoes and cook until tender. Drain, reserving liquid. Set aside potatoes. Measure 1 cup cooking liquid, adding water, if necessary; set aside.",
+      "Peel and finely chop onion. Melt butter in saucepan over medium heat. Add onion to saucepan; cook, stirring frequently, until onion is translucent and tender, but not brown.",
+      "Gradually add potatoes, reserved 1 cup cooking liquid, milk and sugar to onion mixture in saucepan; stir well. Add cheese and ham. Simmer over low heat 30 minutes, stirring frequently. Store leftovers, covered, in refrigerator."
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Alfalfa Sprout Salad",
+    "source": "Walmart",
+    "description": "",
+    "tags": [
+      "all",
+      "salad"
+    ],
+    "images": [
+      "Pictures/Alfalfa Sprout Salad_0001.webp",
+      "Pictures/Alfalfa Sprout Salad_0002.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "1 cup alfalfa sprouts",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "alfalfa sprouts"
+          },
+          {
+            "text": "1 cup shredded carrots",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "shredded carrots"
+          },
+          {
+            "text": "1 cup cooked cubed chicken (about 6 oz.)",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "cooked cubed chicken",
+            "notes": "about 6 oz."
+          },
+          {
+            "text": "1 cup chopped tomatoes",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "chopped tomatoes"
+          },
+          {
+            "text": "1 cup chopped green pepper",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "chopped green pepper"
+          },
+          {
+            "text": "1 cup shredded lettuce",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "shredded lettuce"
+          },
+          {
+            "text": "1/4 cup nonfat mayonnaise",
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "nonfat mayonnaise"
+          },
+          {
+            "text": "6 pita rounds",
+            "quantity": 6.0,
+            "unit": null,
+            "name": "pita rounds"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "Place all ingredients except pita rounds in a bowl; toss.",
+      "Cut each pita in half, open halves and fill halves with mixture."
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Andouille and Chicken Jambalaya",
+    "source": "Louisiana Cook Book",
+    "description": "",
+    "tags": [
+      "all",
+      "rice",
+      "chicken"
+    ],
+    "images": [
+      "Pictures/Andoudille and Chicken Jumbalya_0001.webp",
+      "Pictures/Andoudille and Chicken Jumbalya_0002.webp",
+      "Pictures/Andouille and Chicken Jumbalaya Card_0001.webp",
+      "Pictures/Andouille and Chicken Jumbalaya Card_0002.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "1/2 cup vegetable oil",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "vegetable oil"
+          },
+          {
+            "text": "3 cup chopped onions",
+            "quantity": 3.0,
+            "unit": "cup",
+            "name": "chopped onions"
+          },
+          {
+            "text": "1 cup chopped bell peppers",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "chopped bell peppers"
+          },
+          {
+            "text": "3 teaspoons salt",
+            "quantity": 3.0,
+            "unit": null,
+            "name": "teaspoons salt"
+          },
+          {
+            "text": "1 1/4 teaspoons cayenne",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "1/4 teaspoons cayenne"
+          },
+          {
+            "text": "1 pound andouille, chorizo, or other smoked sausage, cut crosswise into 1/4-inch slice",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "pound andouille, chorizo, or other smoked sausage, cut crosswise into 1/4-inch slice"
+          },
+          {
+            "text": "1 1/2 pounds boneless white and dark chicken meat, cut into 1-inch cubes",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "1/2 pounds boneless white and dark chicken meat, cut into 1-inch cubes"
+          },
+          {
+            "text": "3 bay leaves",
+            "quantity": 3.0,
+            "unit": null,
+            "name": "bay leaves"
+          },
+          {
+            "text": "3 cups medium-grain white rice",
+            "quantity": 3.0,
+            "unit": "cups",
+            "name": "medium-grain white rice"
+          },
+          {
+            "text": "6 cups water",
+            "quantity": 6.0,
+            "unit": "cups",
+            "name": "water"
+          },
+          {
+            "text": "1 cup chopped green onions",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "chopped green onions"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "Heat the oil in a large cast-iron Dutch oven over medium heat. Add the onions, bell peppers, 2 teaspoons of the salt, and 1 teaspoon of the cayenne. Stirring often, br\u00c3\u00b3wn the vegetables for about 20 minutes, or until they are caramelized and dark brown in color. Scrape the bottom and sides of the pot to loosen any browned particles.",
+      "Add the sausage and cook, stirring often for 10 to 15 minutes, scraping the bottom and sides of the pot to loosen any browned particles.",
+      "Season the chicken with the remaining 1 teaspoon salt and remaining 1/4 teaspoon cayenne. Add the chicken and the bay leaves to the pot. Brown the chicken for 8 to 10 minutes, scraping the bottom of the pot to loosen any browned particles.",
+      "Add the rice and stir for 2 to 3 minutes to coat it evenly. Add the water, stir to combine, and cover. Cook over medium heat for 30 to 35 minutes, without stirring, or until the rice is tender and the liquid has been absorbed.",
+      "Remove the pot from the heat and let stand, covered, for 2 to 3 minutes. Remove the bay leaves. Stir in the green onions and serve."
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Au Gratin Potatoes",
+    "source": "Copper Chef",
+    "description": "",
+    "tags": [
+      "all",
+      "potato",
+      "vegetarian"
+    ],
+    "images": [
+      "Pictures/Au Gratin Potatoes.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "2 white onions, sliced",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "white onions, sliced"
+          },
+          {
+            "text": "1/2 stick butter",
+            "quantity": 0.5,
+            "unit": null,
+            "name": "stick butter"
+          },
+          {
+            "text": "8 medium-sized Yukon potatoes (about 2 lb), scrubbed",
+            "quantity": 8.0,
+            "unit": null,
+            "name": "medium-sized Yukon potatoes , scrubbed",
+            "notes": "about 2 lb"
+          },
+          {
+            "text": "1 qt. heavy cream",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "qt. heavy cream"
+          },
+          {
+            "text": "1.tbsp. Dijon mustard",
+            "quantity": null,
+            "unit": null,
+            "name": "1.tbsp. Dijon mustard"
+          },
+          {
+            "text": "2 tsp. salt",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "tsp. salt"
+          },
+          {
+            "text": "1 tsp. ground black pepper",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "tsp. ground black pepper"
+          },
+          {
+            "text": "1 sprig rosemary, chopped, plus more for garnish",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "sprig rosemary, chopped, plus more for garnish"
+          },
+          {
+            "text": "8 slices Swiss cheese",
+            "quantity": 8.0,
+            "unit": null,
+            "name": "slices Swiss cheese"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "Preheat the oven to 350\u00c2\u00b0 F.",
+      "Place the onions and the butter in the Wonder Cooker's Grill Pan, place on the stove top, and sweat the onions over low heat for about 10 mins.",
+      "Using a mandolin, slice the potatoes into 1/8-in. rounds.",
+      "Whisk together the cream, mustard, salt, ground black pepper, and rosemary in a bowl to make the cream mixture.",
+      "Shingle half the potatoes over the onions",
+      "Place 6 Swiss cheese slices over the potatoes.",
+      "Shingle the remaining potatoes over the cheese.",
+      "Carefully pour the cream mixture over the top layer of potatoes.",
+      "Slice the remaining Swiss cheese into squares and scatter evenly over the top.",
+      "Garnish with a sprig of rosemary.",
+      "Bake in the oven at 350\u00c2\u00b0 F until golden brown (about 45 mins.)."
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Oven Baked Potato Chips",
+    "source": "Try Foods",
+    "description": "",
+    "tags": [
+      "all",
+      "potato",
+      "vegetarian"
+    ],
+    "images": [
+      "Pictures/Baked Potato Chips_0001.webp",
+      "Pictures/Baked Potato Chips_0002.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "Cooking spray",
+            "quantity": null,
+            "unit": null,
+            "name": "Cooking spray"
+          },
+          {
+            "text": "4 tbsp. Parmesan cheese, grated",
+            "quantity": 4.0,
+            "unit": null,
+            "name": "tbsp. Parmesan cheese, grated"
+          },
+          {
+            "text": "1/2 tsp. salt",
+            "quantity": 0.5,
+            "unit": null,
+            "name": "tsp. salt"
+          },
+          {
+            "text": "1/2 tsp. garlic powder",
+            "quantity": 0.5,
+            "unit": null,
+            "name": "tsp. garlic powder"
+          },
+          {
+            "text": "1 lb. baking potatoes, scrubbed",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "lb. baking potatoes, scrubbed"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "Preheat oven to 350\u00c2\u00b0F. Spray a cookie sheet with non-stick spray.",
+      "In a small bowl, mix cheese, salt and garlic.",
+      "Slice potatoes thinly and place in a layer on the cookie sheet. Sprinkle both sides with the cheese mix.",
+      "Bake 10 to 13 minutes. Serves 4."
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Banana Bread",
+    "source": "",
+    "description": "",
+    "tags": [
+      "all",
+      "bread",
+      "banana"
+    ],
+    "images": [
+      "Pictures/Banana Bread_0002.webp",
+      "Pictures/Banana Bread_0001.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "2 Cup flour",
+            "quantity": 2.0,
+            "unit": "cup",
+            "name": "flour"
+          },
+          {
+            "text": "1 tsp baking soda",
+            "quantity": 1.0,
+            "unit": "tsp",
+            "name": "baking soda"
+          },
+          {
+            "text": "1/2 tsp salt",
+            "quantity": 0.5,
+            "unit": "tsp",
+            "name": "salt"
+          },
+          {
+            "text": "1/2 margarine or butter",
+            "quantity": 0.5,
+            "unit": null,
+            "name": "margarine or butter"
+          },
+          {
+            "text": "1 cup sugar",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "sugar"
+          },
+          {
+            "text": "2 eggs",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "eggs"
+          },
+          {
+            "text": "2 ripe bananas",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "ripe bananas"
+          },
+          {
+            "text": "1/3 cup milk",
+            "quantity": 0.333,
+            "unit": "cup",
+            "name": "milk"
+          },
+          {
+            "text": "1 tsp vinegar",
+            "quantity": 1.0,
+            "unit": "tsp",
+            "name": "vinegar"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "Pre heat to 350. In one bowl mix dry ingredients except sugar.",
+      "In second bowl cream sugar, butter, and bananas.",
+      "Mix together the milk and vinegar and gradually add to the banana mixture, alternating with the dry ingredients, mix well. Optional - add walnuts or chocolate chips",
+      "Pour into greased loaf pan. Bake for 45 minutes or until tooth pick comes out clean.",
+      "Cool 15 - 20 minutes, Turn upside down onto plate, then flip over to cool."
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Barbecue Beef Sandwiches",
+    "source": "Taste of Home",
+    "description": "",
+    "tags": [
+      "all",
+      "beef",
+      "sandwich"
+    ],
+    "images": [
+      "Pictures/Barbeque Beef Sandwiches_0002.webp",
+      "Pictures/Barbeque Beef Sandwiches_0001.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "1-1/2 pounds lean ground beef",
+            "quantity": null,
+            "unit": null,
+            "name": "1-1/2 pounds lean ground beef"
+          },
+          {
+            "text": "2 celery ribs, sliced",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "celery ribs, sliced"
+          },
+          {
+            "text": "1 large onion, chopped",
+            "quantity": 1.0,
+            "unit": "large",
+            "name": "onion, chopped"
+          },
+          {
+            "text": "1 can (8 ounces) tomato sauce",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "can tomato sauce",
+            "notes": "8 ounces"
+          },
+          {
+            "text": "1/4 cup ketchup",
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "ketchup"
+          },
+          {
+            "text": "2 tablespoons brown sugar",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "tablespoons brown sugar"
+          },
+          {
+            "text": "2 tablespoons barbecue sauce",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "tablespoons barbecue sauce"
+          },
+          {
+            "text": "1 tablespoon prepared mustard",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "tablespoon prepared mustard"
+          },
+          {
+            "text": "1 tablespoon Worcestershire sauce",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "tablespoon Worcestershire sauce"
+          },
+          {
+            "text": "6 hamburger buns, split",
+            "quantity": 6.0,
+            "unit": null,
+            "name": "hamburger buns, split"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "In a large nonstick skillet, cook thebeef, celery and onion over medium heat until meat is no longer pink; drain.",
+      "Stir in the tomato sauce, ketchup, brown sugar, barbecue sauce, mustard and Worcestershire sauce. Bring to a boil. Reduce heat; simmer, uncovered, for 10-15 minutes to allow flavors to blend. Spoon 3/4 cup onto each bun."
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Bean 'n' Rice Burritos",
+    "source": "Taste of Home",
+    "description": "",
+    "tags": [
+      "all",
+      "bean",
+      "rice"
+    ],
+    "images": [
+      "Pictures/Bean 'n' Rice Potatoes_0002.webp",
+      "Pictures/Bean 'n' Rice Potatoes_0001.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "1-1/2 cups water",
+            "quantity": null,
+            "unit": null,
+            "name": "1-1/2 cups water"
+          },
+          {
+            "text": "1-1/2 cups uncooked instant brown rice",
+            "quantity": null,
+            "unit": null,
+            "name": "1-1/2 cups uncooked instant brown rice"
+          },
+          {
+            "text": "1 medium green pepper, diced",
+            "quantity": 1.0,
+            "unit": "medium",
+            "name": "green pepper, diced"
+          },
+          {
+            "text": "1 teaspoon minced garlic",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "teaspoon minced garlic"
+          },
+          {
+            "text": "1 tablespoon olive oil",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "tablespoon olive oil"
+          },
+          {
+            "text": "1 tablespoon chili powder",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "tablespoon chili powder"
+          },
+          {
+            "text": "1 teaspoon ground cumin",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "teaspoon ground cumin"
+          },
+          {
+            "text": "1/8 teaspoon crushed red pepper flakes",
+            "quantity": 0.125,
+            "unit": null,
+            "name": "teaspoon crushed red pepper flakes"
+          },
+          {
+            "text": "1 can (15 ounces) black beans, rinsed and drained",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "can black beans, rinsed and drained",
+            "notes": "15 ounces"
+          },
+          {
+            "text": "8 flour tortillas (8 inches), warmed",
+            "quantity": 8.0,
+            "unit": null,
+            "name": "flour tortillas , warmed",
+            "notes": "8 inches"
+          },
+          {
+            "text": "1 cup salsa",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "salsa"
+          },
+          {
+            "text": "Reduced-fat shredded cheddar cheese and reduced-fat sour cream, optional",
+            "quantity": null,
+            "unit": null,
+            "name": "Reduced-fat shredded cheddar cheese and reduced-fat sour cream, optional"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "In a small saucepan, bring water to a boil. Add rice. Return to a boil. Reduce heat; cover and simmer for 5 minutes. Remove from the heat. Let stand for 5 minutes or until water is absorbed.",
+      "Meanwhile, in a large skillet, saute the green pepper, onion and garlic in oil for 3-4 minutes or until tender. Stir in the chili powder, cumin and pepper flakes until combined. Add beans and rice; cook and stir for 4-6 minutes or until heated through.",
+      "Spoon about 1/2 cup of filling off-center on each tortilla; top with 2 tablespoons salsa. Fold sides and ends over filling and roll up. Serve with cheese and sour cream if desired."
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Beef Boulettes with Garlic",
+    "source": "",
+    "description": "",
+    "tags": [
+      "all",
+      "beef"
+    ],
+    "images": [
+      "Pictures/Beef Boulettes with Garlic_0001.webp",
+      "Pictures/Beef Boulettes with Garlic_0002.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "2 pounds ground beef",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "pounds ground beef"
+          },
+          {
+            "text": "2 1/2 tsp salt",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "1/2 tsp salt"
+          },
+          {
+            "text": "3/4 tsp black pepper",
+            "quantity": 0.75,
+            "unit": "tsp",
+            "name": "black pepper"
+          },
+          {
+            "text": "1/2 tsp cayenne",
+            "quantity": 0.5,
+            "unit": "tsp",
+            "name": "cayenne"
+          },
+          {
+            "text": "1/2 cup finely chopped onions",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "finely chopped onions"
+          },
+          {
+            "text": "3 cups thinly sliced onions",
+            "quantity": 3.0,
+            "unit": "cups",
+            "name": "thinly sliced onions"
+          },
+          {
+            "text": "12 garlic cloves",
+            "quantity": 12.0,
+            "unit": null,
+            "name": "garlic cloves"
+          },
+          {
+            "text": "1/2 cup flour",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "flour"
+          },
+          {
+            "text": "2 tsp rustic rub",
+            "quantity": 2.0,
+            "unit": "tsp",
+            "name": "rustic rub"
+          },
+          {
+            "text": "3 tbs vegetable oil",
+            "quantity": 3.0,
+            "unit": null,
+            "name": "tbs vegetable oil"
+          },
+          {
+            "text": "4 bay leaves",
+            "quantity": 4.0,
+            "unit": null,
+            "name": "bay leaves"
+          },
+          {
+            "text": "2 cups water",
+            "quantity": 2.0,
+            "unit": "cups",
+            "name": "water"
+          },
+          {
+            "text": "3 Tbs. chopped parsley",
+            "quantity": 3.0,
+            "unit": null,
+            "name": "Tbs. chopped parsley"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "Put the beef in a mixing bowl. Add 1 1/2 tsp of the salt, 1/2 tsp of the black pepper, the cayenne and the chopped onions. Mix well with your hands.",
+      "Make 12 meatballs. Insert a clove of garlic in the center of each and pinch the beef around it.",
+      "Combine the flour with rub in a shallow plate. Roll the meatballs evenly in the flour mixture. Reserve any excess flour.",
+      "Heat the oil in a large sauce pan over high heat. Add the meatball and brown evenly, using a spoon to turn them. With a slotted spoon, remove the meatballs and set aside.",
+      "Reduce heat to medium and add the reserved flour mixture. Stir constantly for 3-4 minutes, make a dark brown roux.",
+      "Add the sliced onions, bay leaves, and the remaining salt and pepper. Cook stirring occasionally for 10 minutes or until onions are very soft.",
+      "Add the water and mix well. Bring to a boil and return meatballs to pot. Reduce heat and simmer, uncovered for 1 hour. Skin fat. Remove bay leaves add parsley and serve immediately."
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Beef Stroganoff",
+    "source": "",
+    "description": "",
+    "tags": [
+      "all",
+      "beef"
+    ],
+    "images": [
+      "Pictures/Beef Stroganoff.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "1 lb hamburger meat",
+            "quantity": 1.0,
+            "unit": "lb",
+            "name": "hamburger meat"
+          },
+          {
+            "text": "1 can cream of mushroom or chicken soup",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "can cream of mushroom or chicken soup"
+          },
+          {
+            "text": "1 tbs worch sauce",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "tbs worch sauce"
+          },
+          {
+            "text": "1/2 cup sour cream",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "sour cream"
+          },
+          {
+            "text": "1/2 cup chopped onion",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "chopped onion"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "Brown the hamburger with the onion.",
+      "Add the cream of mushroom or chicken soup and simmer for 3 minutes.",
+      "Pour in the sour cream and be careful not to boil it.",
+      "Serve over rice."
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Black Bean Asperagus Salad",
+    "source": "",
+    "description": "",
+    "tags": [
+      "all",
+      "salad",
+      "bean"
+    ],
+    "images": [
+      "Pictures/Black Bean Asperagus Salad_0001.webp",
+      "Pictures/Black Bean Asperagus Salad_0002.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "2 pounds fresh asparagus, trimmed and cut into 1-inch pieces",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "pounds fresh asparagus, trimmed and cut into 1-inch pieces"
+          },
+          {
+            "text": "2 cans (15 ounces each) black beans, rinsed and drained",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "cans black beans, rinsed and drained",
+            "notes": "15 ounces each"
+          },
+          {
+            "text": "1 large sweet red pepper, chopped",
+            "quantity": 1.0,
+            "unit": "large",
+            "name": "sweet red pepper, chopped"
+          },
+          {
+            "text": "1 medium sweet onion, chopped",
+            "quantity": 1.0,
+            "unit": "medium",
+            "name": "sweet onion, chopped"
+          },
+          {
+            "text": "3/4 cup minced fresh parsley",
+            "quantity": 0.75,
+            "unit": "cup",
+            "name": "minced fresh parsley"
+          },
+          {
+            "text": "1/4 cup olive oil",
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "olive oil"
+          },
+          {
+            "text": "2 tablespoons lime juice",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "tablespoons lime juice"
+          },
+          {
+            "text": "1/8 teaspoon salt",
+            "quantity": 0.125,
+            "unit": null,
+            "name": "teaspoon salt"
+          },
+          {
+            "text": "1/8 teaspoon pepper",
+            "quantity": 0.125,
+            "unit": null,
+            "name": "teaspoon pepper"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "In a Dutch oven, bring 1 in. of water to a boil. Add asparagus; cover and boil for 3-4 minutes or until crisp-tender. Drain and immediately place asparagus in ice water. Drain and pat dry.",
+      "In a large serving bowl, combine the asparagus, beans, red pepper, onion and parsley. In a small bowl, whisk the oil, lime juice, salt and pepper. Pour over vegetables and toss to coat. Cover and refrigerate for at least 2 hours before serving."
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Black Bean Salad",
+    "source": "",
+    "description": "",
+    "tags": [
+      "all",
+      "salad",
+      "bean"
+    ],
+    "images": [
+      "Pictures/Black Bean Salad.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "1 cans black beans, drained and rinsed",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "cans black beans, drained and rinsed"
+          },
+          {
+            "text": "1 cup frozen corn",
+            "quantity": 1.0,
+            "unit": "cup",
+            "name": "frozen corn"
+          },
+          {
+            "text": "6 cherry tomatoes, quartered",
+            "quantity": 6.0,
+            "unit": null,
+            "name": "cherry tomatoes, quartered"
+          },
+          {
+            "text": "1/2 cup minced green onion",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "minced green onion"
+          },
+          {
+            "text": "1 garlic clove pressed",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "garlic clove pressed"
+          },
+          {
+            "text": "1/2 cup diced red pepper",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "diced red pepper"
+          },
+          {
+            "text": "1/2 cup chopped cilantro",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "chopped cilantro"
+          },
+          {
+            "text": "2 cup mixed field greens",
+            "quantity": 2.0,
+            "unit": "cup",
+            "name": "mixed field greens"
+          },
+          {
+            "text": "1 Tbsp olive or flaxseed oil",
+            "quantity": 1.0,
+            "unit": "tbsp",
+            "name": "olive or flaxseed oil"
+          },
+          {
+            "text": "2 tbs fresh lemon juice",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "tbs fresh lemon juice"
+          },
+          {
+            "text": "1/4 cup chopped parsley",
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "chopped parsley"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "Mix all ingredients in a large bowl. Salt and pepper to taste"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Blond Brownies",
+    "source": "Tony Tacket",
+    "description": "This recipe was given to me by my neighbor",
+    "tags": [
+      "all",
+      "dessert"
+    ],
+    "images": [
+      "Pictures/blond brownies 001.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "1 stick margarine (1/2 cup)",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "stick margarine",
+            "notes": "1/2 cup"
+          },
+          {
+            "text": "1 box yellow cake mix",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "box yellow cake mix"
+          },
+          {
+            "text": "4 eggs",
+            "quantity": 4.0,
+            "unit": null,
+            "name": "eggs"
+          },
+          {
+            "text": "1 package cream cheese (softened)",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "package cream cheese",
+            "notes": "softened"
+          },
+          {
+            "text": "3 1/2 cups powdered sugar",
+            "quantity": 3.0,
+            "unit": null,
+            "name": "1/2 cups powdered sugar"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "Pre heat to 350. Mix 1 egg, margarine, and yellow cake mix. Pour into 9 x 13 pan",
+      "Beat cream cheese, powered sugar, and the remaining 3 eggs. Pour on top of crust.",
+      "Bake for 40 minutes"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Broiled Orange Roughy",
+    "source": "Taste of Home",
+    "description": "",
+    "tags": [
+      "all",
+      "fish"
+    ],
+    "images": [
+      "Pictures/Boiled Orange Roughly_0001.webp",
+      "Pictures/Boiled Orange Roughly_0002.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "Fish",
+        "items": [
+          {
+            "text": "1 tablespoon lemon juice",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "tablespoon lemon juice"
+          },
+          {
+            "text": "1 teaspoon salt-free seasoning blend",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "teaspoon salt-free seasoning blend"
+          },
+          {
+            "text": "6 orange roughy fillets (about 7 ounces each)",
+            "quantity": 6.0,
+            "unit": null,
+            "name": "orange roughy fillets",
+            "notes": "about 7 ounces each"
+          },
+          {
+            "text": "1 tablespoon olive oil",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "tablespoon olive oil"
+          }
+        ]
+      },
+      {
+        "title": "Italian Salsa",
+        "items": [
+          {
+            "text": "2 cups chopped plum tomatoes",
+            "quantity": 2.0,
+            "unit": "cups",
+            "name": "chopped plum tomatoes"
+          },
+          {
+            "text": "1 can (2-1/4 ounces) sliced ripe olives, drained",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "can sliced ripe olives, drained",
+            "notes": "2-1/4 ounces"
+          },
+          {
+            "text": "2 tablespoons lemon juice",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "tablespoons lemon juice"
+          },
+          {
+            "text": "2 tablespoons minced fresh parsley",
+            "quantity": 2.0,
+            "unit": null,
+            "name": "tablespoons minced fresh parsley"
+          },
+          {
+            "text": "1 teaspoon salt-free seasoning blend",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "teaspoon salt-free seasoning blend"
+          },
+          {
+            "text": "1 teaspoon Italian seasoning",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "teaspoon Italian seasoning"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "1. In a small bowl, combine the oil, lemon juice and seasoning blend; spoon over the fish.",
+      "Broil 4-5 in. from the heat for 10-15 minutes or until fish flakes easily with a fork.",
+      "Meanwhile, in a small bowl, combine the salsa ingredients; serve with fish."
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Broccoli Waldorf Salad",
+    "source": "Quick Cooking",
+    "description": "This salad is as easy to pre-pare as it is to eat! A color-ful combination of apples, raisins and pecans jazzes up broccoli florets in this sum-mery side dish. Its tangy-sweet flavor makes it astandout at company picnics and church potlucks. -Vicki Roehrick Chubbuck, Idaho",
+    "tags": [
+      "all",
+      "salad",
+      "vegetarian"
+    ],
+    "images": [
+      "Pictures/brocroli waldorf salad - 1.webp",
+      "Pictures/brocroli waldorf salad - 2.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "6 cups broccoli florets",
+            "quantity": 6.0,
+            "unit": "cups",
+            "name": "broccoli florets"
+          },
+          {
+            "text": "1 large red apple, chopped",
+            "quantity": 1.0,
+            "unit": "large",
+            "name": "red apple, chopped"
+          },
+          {
+            "text": "1/2 cup raisins",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "raisins"
+          },
+          {
+            "text": "1/4 cup chopped pecans",
+            "quantity": 0.25,
+            "unit": "cup",
+            "name": "chopped pecans"
+          },
+          {
+            "text": "1/2 cup prepared coleslaw dressing",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "prepared coleslaw dressing"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "In a large serving bowl, combine the first four ingredients. Drizzle with dressing; toss to coat. Refrigerate leftovers. Yield:"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Brussel Sprouts with Water Chestnuts",
+    "source": "Taste of Home",
+    "description": "",
+    "tags": [
+      "all",
+      "vegetarian"
+    ],
+    "images": [
+      "Pictures/Icon/Brussel Sprouts with Water Chessnuts.webp",
+      "Pictures/Brussel Sprouts with Water Chessnuts_0001.webp", 
+      "Pictures/Brussel Sprouts with Water Chessnuts_0002.webp"
+    ],
+    "ingredientSections": [
+      {
+        "title": "",
+        "items": [
+          {
+            "text": "1 pound fresh brussels sprouts",
+            "quantity": 1.0,
+            "unit": null,
+            "name": "fresh brussels sprouts"
+          },
+          {
+            "text": "3 tablespoons butter",
+            "quantity": 3.0,
+            "unit": null,
+            "name": "butter"
+          },
+          {
+            "text": "1/2 cup sliced water chestnuts",
+            "quantity": 0.5,
+            "unit": "cup",
+            "name": "sliced water chestnuts"
+          },
+          {
+            "text": "Dash each pepper and ground nutmeg",
+            "quantity": 1.0,
+            "unit": "dash",
+            "name": "pepper and ground nutmeg"
+          }
+        ]
+      }
+    ],
+    "instructions": [
+      "1. In a small bowl, combine the oil, lemon juice and seasoning blend; spoon over the fish.",
+      "Broil 4-5 in. from the heat for 10-15 minutes or until fish flakes easily with a fork.",
+      "Meanwhile, in a small bowl, combine the salsa ingredients; serve with fish."
+    ]
+  }
+]
