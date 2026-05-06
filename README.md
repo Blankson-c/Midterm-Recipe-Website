@@ -10,4 +10,4 @@ Project for INF 286 - A recipe website called:
 * recipeNav.html - lists recipes cards that link to recipe.html; types of recipes depends on what was clicked before hand
 * recipe.html - lists a recipe depending on what was press before hand
 * nav.html - has the html for all the other html pages
-* not-found.png - a placeholder for any photos
+* not-found.png - a placeholder for any photos i don't have
