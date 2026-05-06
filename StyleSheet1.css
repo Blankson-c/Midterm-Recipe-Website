@@ -73,13 +73,8 @@ nav ul li a {
         text-decoration: none;
 }
 
-
-/*Footer*/
-
-.bottom {
-    height: 10%;
-    width: 100%;
-    background-color: #322382ff;
+nav ul li a:hover {
+    background-color: rgb(24, 15, 74);
 }
 
 
@@ -92,23 +87,10 @@ nav ul li a {
 }
 
 
+.leftside button:hover {
+    background-color: rgb(24, 15, 74);
 
-
-
-
-
-/* eventual hover
-.btn-group button {
-    background-color: #333333; 
-    border: 1px solid green; 
-    color: white; 
-    padding: 24px 32px; 
-    cursor: pointer; 
-    width: 25%; 
-    display: block; 
-    border-radius: 12px;
 }
-*/
 
 body {
     margin: 0;
