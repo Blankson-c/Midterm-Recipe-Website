@@ -1,4 +1,6 @@
-﻿@font-face {
+﻿@import url('https://fonts.googleapis.com/css2?family=Allison&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bpmf+Huninn&display=swap');
+
+@font-face {
     font-family: apor; 
     src: url(Apricot.otf); 
 }
@@ -8,10 +10,37 @@
         flex-direction: column;
     }
 
-    .leftsidebtn {
+    .leftside {
         width: 100%;
     }
 }
+
+html * {
+    font-family: "Bpmf Huninn";
+}
+
+.header {
+    background-color: white;
+}
+
+.container h2 {
+    font-family: "Arvo", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.favDesc{
+    text-align: center;
+    background-color: white;
+    margin: 10px auto;
+    width: 50%;
+    padding: 10px;
+}
+
 
 /*Nav Bar*/
 .title {
@@ -21,7 +50,7 @@
     border: 3px solid #a4c2f4ff;
     font-size: 50px;
     font-kerning: none;
-    margin-bottom: 8px;
+    margin: 8px;
 }
 
 body header a {
@@ -56,8 +85,6 @@ nav ul li a {
 
 /* Main Page Start */
 
-
-/*don't know where this goes -  find out*/
 #list {
     background-color: transparent;
     display: block;
@@ -65,17 +92,7 @@ nav ul li a {
 }
 
 
-.leftsidebtn button {
-    width: 100%;
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #322382ff;
-    border: 1px solid #a4c2f4ff;
-    color: white;
-    cursor: pointer;
-    border-radius: 12px;
-    white-space: nowrap;
-}
+
 
 
 
@@ -93,17 +110,45 @@ nav ul li a {
 }
 */
 
+body {
+    margin: 0;
+    background-color: #e0f4fe;
+    display: flex;
+    flex-direction: column;
+}
 
-
-
-.leftsidebtn {
-    flex: 0 0 250px;
+.leftside button {
+    width: 100%;
+    margin: 20px 0;
     padding: 20px;
+    background-color: #322382ff;
+    border: 1px solid #a4c2f4ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    white-space: nowrap;
+}
+
+
+.leftside {
+    background-color: #ceebfe;
+    width: 30%;
+    float: left;
+    margin: 2%;
+    padding: 1%;
+}
+
+.center {
+    text-align: center;
 }
 
 .main {
-    flex: 1;
-    padding: 20px;
+    font-family: "Arvo", serif;
+    background-color: white;
+    width: 50%;
+    float: left;
+    margin: 2%;
+    padding: 1.5%;
 }
 
 .container {
@@ -120,13 +165,6 @@ nav ul li a {
     align-items: center;
 }
 
-html * {
-    font-family: "Bpmf Huninn";
-}
-
-.text{
-    font-family: "Bpmf Huninn";
-}
 
 .flex-container {
     display: flex;
@@ -137,7 +175,16 @@ html * {
     width: 800px;
     margin: auto;
     margin-top: 10px;
+    background-color: white;
 }  
+
+.flex-container a{
+    display: flex;
+    gap: 20px;
+    color: inherit;
+    text-decoration: none;
+}  
+
 
 a {
   color: black;
@@ -164,11 +211,24 @@ a {
 
 .recipe-card-container {
     width: 250px;
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.recipe-card-container hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
 }
 
 .recipe-image{
     width: 200px;
     height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
 }
 
 
@@ -210,4 +270,25 @@ a {
 .recipeImg {
     height: 300px;
     width: 500px;
+}
+
+
+/*Footer*/
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #322382;
+    color: white;
+    margin-top: 20px;
+    font-family: "Arvo", serif;
+}
+/*footer end*/
+
+.arvo {
+    font-family: "Arvo", serif;
+}
+
+main {
+    flex: 1;
 }

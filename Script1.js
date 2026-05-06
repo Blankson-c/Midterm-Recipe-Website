@@ -20,7 +20,7 @@ fetch('recipes.json')
 // populates and creates the ingredients li html elements
 function populateIngre(recipeid){
     var section = document.getElementById("ingreSection");
-    section.innerHTML = '<h2 id="ingreList">Ingredients</h2>';
+    section.querySelectorAll("ul, h3").forEach(el => el.remove());
     var ingredients = recipeList[recipeid].ingredientSections;
     if (ingredients.length > 1 ){
         for (let i = 0; i < ingredients.length; i++){
@@ -81,7 +81,7 @@ function populateStep(recipeid){
 
 
 function loadRecipeImg(recipeid, div){
-    for(let i = 0; i < recipeList[recipeid].images.length; i++){
+    for(let i = 1; i < recipeList[recipeid].images.length; i++){
         var img = document.createElement("img")
         img.classList.add("recipeImg")
         img.src = recipeList[recipeid].images[i]
@@ -152,7 +152,7 @@ function createRecipeCard(recipe){
     //loads a temperary not found image
     var cardImg = document.createElement("img");
     cardImg.classList.add("recipe-image");
-    cardImg.src = "not-found.png"
+    cardImg.src = recipe.images[0]
     cardContainer.appendChild(cardImg);
 
     var cardContent = document.createElement("div");

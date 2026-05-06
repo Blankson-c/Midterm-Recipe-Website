@@ -9,7 +9,7 @@
       "dessert"
     ],
     "images": [
-      ""
+      "not-found.png"
     ],
     "ingredientSections": [
       {
@@ -135,6 +135,7 @@
       "noodles"
     ],
     "images": [
+      "Pictures/Icon/Asian Noodles.webp",
       "Pictures/Asian Noodles_0001.webp",
       "Pictures/Asian Noodles_0002.webp"
     ],
@@ -242,6 +243,7 @@
       "chicken"
     ],
     "images": [
+      "Pictures/Icon/balsamic chicken and peppers.webp",
       "Pictures/balsamic chicken and peppers_0001.webp",
       "Pictures/balsamic chicken and peppers_0002.webp"
     ],
@@ -297,7 +299,7 @@
     ],
     "instructions": [
       "Sprinkle chicken with pepper and salt. In a large skillet, cook the chicken in 1 tablespoon oil for 4-6 minutes in each side or until a meat thermometer reach's 170; drain. Remove chicken and keep warm",
-      "In the same skillet, saut\u00c3\u00a9 peppers and onion in remaining oil for 3-4 minutes or until tender. Return chicken to the pan. Add vinegar; heat through."
+      "In the same skillet, saute peppers and onion in remaining oil for 3-4 minutes or until tender. Return chicken to the pan. Add vinegar; heat through."
     ]
   },
   {
@@ -312,6 +314,7 @@
       "dessert"
     ],
     "images": [
+      "Pictures/Icon/bark.webp",
       "Pictures/bark.webp"
     ],
     "ingredientSections": [
@@ -416,7 +419,7 @@
       "dessert"
     ],
     "images": [
-      ""
+      "not-found.png"
     ],
     "ingredientSections": [
       {
@@ -555,7 +558,7 @@
       "turkey"
     ],
     "images": [
-      ""
+      "not-found.png"
     ],
     "ingredientSections": [
       {
@@ -665,7 +668,7 @@
       "vegetarian"
     ],
     "images": [
-      ""
+      "not-found.png"
     ],
     "ingredientSections": [
       {
@@ -757,7 +760,7 @@
       "fish"
     ],
     "images": [
-      ""
+      "not-found.png"
     ],
     "ingredientSections": [
       {
@@ -842,7 +845,7 @@
       "soup"
     ],
     "images": [
-      ""
+      "not-found.png"
     ],
     "ingredientSections": [
       {
@@ -934,6 +937,7 @@
       "salad"
     ],
     "images": [
+      "Pictures/Icon/Alfalfa Sprout Salad.webp",
       "Pictures/Alfalfa Sprout Salad_0001.webp",
       "Pictures/Alfalfa Sprout Salad_0002.webp"
     ],
@@ -1009,6 +1013,7 @@
       "chicken"
     ],
     "images": [
+      "Pictures/Icon/chicken-and-andouille-jumbalya.webp",
       "Pictures/Andoudille and Chicken Jumbalya_0001.webp",
       "Pictures/Andoudille and Chicken Jumbalya_0002.webp",
       "Pictures/Andouille and Chicken Jumbalaya Card_0001.webp",
@@ -1106,6 +1111,7 @@
       "vegetarian"
     ],
     "images": [
+      "Pictures/Icon/au-gratin.webp",
       "Pictures/Au Gratin Potatoes.webp"
     ],
     "ingredientSections": [
@@ -1195,6 +1201,7 @@
       "vegetarian"
     ],
     "images": [
+      "Pictures/Icon/Baked Potato Chips.webp",
       "Pictures/Baked Potato Chips_0001.webp",
       "Pictures/Baked Potato Chips_0002.webp"
     ],
@@ -1253,6 +1260,7 @@
       "banana"
     ],
     "images": [
+      "Pictures/Icon/banana-bread.webp",
       "Pictures/Banana Bread_0002.webp",
       "Pictures/Banana Bread_0001.webp"
     ],
@@ -1336,6 +1344,7 @@
       "sandwich"
     ],
     "images": [
+      "Pictures/Icon/Barbeque Beef Sandwiches.webp",
       "Pictures/Barbeque Beef Sandwiches_0002.webp",
       "Pictures/Barbeque Beef Sandwiches_0001.webp"
     ],
@@ -1423,6 +1432,7 @@
       "rice"
     ],
     "images": [
+      "Pictures/Icon/Bean 'n' Rice Potatoes.webp",
       "Pictures/Bean 'n' Rice Potatoes_0002.webp",
       "Pictures/Bean 'n' Rice Potatoes_0001.webp"
     ],
@@ -1523,6 +1533,7 @@
       "beef"
     ],
     "images": [
+      "not-found.png",
       "Pictures/Beef Boulettes with Garlic_0001.webp",
       "Pictures/Beef Boulettes with Garlic_0002.webp"
     ],
@@ -1631,6 +1642,7 @@
       "beef"
     ],
     "images": [
+      "not-found.png",
       "Pictures/Beef Stroganoff.webp"
     ],
     "ingredientSections": [
@@ -1688,6 +1700,7 @@
       "bean"
     ],
     "images": [
+      "Pictures/Icon/Black Bean Asperagus Salad.webp",
       "Pictures/Black Bean Asperagus Salad_0001.webp",
       "Pictures/Black Bean Asperagus Salad_0002.webp"
     ],
@@ -1769,6 +1782,7 @@
       "bean"
     ],
     "images": [
+      "not-found.png",
       "Pictures/Black Bean Salad.webp"
     ],
     "ingredientSections": [
@@ -1858,6 +1872,7 @@
       "dessert"
     ],
     "images": [
+      "not-found.png",
       "Pictures/blond brownies 001.webp"
     ],
     "ingredientSections": [
@@ -1915,6 +1930,7 @@
       "fish"
     ],
     "images": [
+      "Pictures/Icon/Boiled Orange Roughly.webp",
       "Pictures/Boiled Orange Roughly_0001.webp",
       "Pictures/Boiled Orange Roughly_0002.webp"
     ],
@@ -2009,6 +2025,7 @@
       "vegetarian"
     ],
     "images": [
+      "Pictures/Icon/brocroli waldorf salad.webp",
       "Pictures/brocroli waldorf salad - 1.webp",
       "Pictures/brocroli waldorf salad - 2.webp"
     ],

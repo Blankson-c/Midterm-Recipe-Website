@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="title"><a href="index.html">The Recipe Book</a></header>
-    <div id="navbar-placeholder"></div>
+
 <!--
 Source - https://stackoverflow.com/a/68909928
 Posted by Mendi Barel, modified by community. See post 'Timeline' for change history
@@ -18,23 +18,23 @@ Retrieved 2026-05-05, License - CC BY-SA 4.0
 -->
 
 <script id="replace_with_navbar" src="nav.js"></script>
-
+<main>
     <div class="recipe" id="recipe">
     <article class="recipe-card">
         <div class="col1">
             <header>
-                <h1 id="respName"></h1>
+                <h1 class="arvo" id="respName"></h1>
             </header>
             <div class="recipe-description">
                 <p id="description"></p>
             </div>
             <section id="ingreSection">
-                <h2 class="text" id="ingreList">Ingredients</h2>
+                <h2 class="arvo" id="ingreList">Ingredients</h2>
 
             </section>
             <section id="instrsection">
-                <h2>Instructions</h2>
-                <ul class="text" id="steps">
+                <h2 class="arvo">Instructions</h2>
+                <ul id="steps">
                 </ul>
             </section>
         </div>
@@ -45,9 +45,10 @@ Retrieved 2026-05-05, License - CC BY-SA 4.0
 
     </article>
     </div>
-    <footer class="bottom">
-        <div></div>
-    </footer>
+</main>    
+<footer>
+    <p>© 2026 The Recipe Book</p>
+</footer>
 </body>
 
 </html>
